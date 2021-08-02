@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:slateblue
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    border-bottom: 3px solid black;
+    padding-bottom: 2%;
+}
+
+form.searchBar{
+    padding-top: 1%;
+    padding-left: 70%;
+    border: none;
+}
+
+input.searchBarBar {
+    border: none;
+    background-color: rgb(209, 209, 209);
+    width: 200px;
+    height: 25px;
+    font-size: 110%;
+}
+
+input.searchBarBar:focus {
+    outline:none;
+}
+
+input.searchBarBar:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.searchButton {
+    border: none;
+    background-color: rgb(209, 209, 209);
+    padding-top: 3.0px;
+    width: 35px;
+    height: 28px;
+}
+
+.searchButton:hover {
+    cursor: pointer;
+    background-color: rgb(184, 184, 184);
+}
+
+.mainExplanation {
+    padding-left: 15vw;
+    padding-top: 12vh;
+    font-size: 130%;
+    font-weight: 600;
+}
+
+#mainBody {
+    text-indent: 12vw;
+}
+
+.movieDiv {
+    width: 45vw;
+    height: 35vh;
+    background-color: rgb(171, 157, 211);
+    margin: auto;
+    margin-top: 2.5%;
+    border-radius: 5px;
+}
+
+.complexityDiv {
+    width: 50vw;
+    height: 20vh;
+    background-color: rgb(175, 161, 189);
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.searchFunctionText {
+    text-align: center;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+.MovieNotFound {
+    text-align: center;
+    padding-top: 12%;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+.movieInformation{
+    text-align: center;
+    padding-top: 4%;
+    font-weight: 600;
+    font-size: 110%;
+}
